@@ -75,7 +75,7 @@ function App() {
                   "rgba(255, 159, 64, 1)",
                   "rgba(153, 102, 255, 1)",
                 ],
-                
+
             },
           ],
           labels:label, 
@@ -89,7 +89,7 @@ function App() {
   fetchData();
   }, [])
   return (
-    <div className="App" style={{width:'30%', height:'30%'}}>
+    <div className="App" style={{width:'500px', margin:'0 auto'}}>
       <Doughnut data={data}/>
     </div>
   );
