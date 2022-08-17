@@ -1,9 +1,9 @@
 import React from "react";
 
-function DoughnutChar(){
+function DoughnutChart(){
     return <div>
         <h1>Doughnut</h1>
     </div>;
 }
 
-export default DoughnutChar;
+export default DoughnutChart;

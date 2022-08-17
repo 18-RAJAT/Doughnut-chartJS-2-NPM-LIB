@@ -1,11 +1,9 @@
-import { Doughnut } from 'react-chartjs-2';
-import DoughnutChart from './DoughnutChart';
+import DoughnutChart from './charts/Doughnut';
 import './App.css';
 
 function App() {
   return (
-    <div>
-    {/* <h1>Hello</h1> */}
+    <div className="App">
     <DoughnutChart/>
     </div>
   );
